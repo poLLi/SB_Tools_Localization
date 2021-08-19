@@ -1,6 +1,6 @@
 # Starbase Tools | Localization
 
-> Localization files for Dead Matter Tools Website.
+> Localization files for Starbase Tools Website.
 >
 > Website: [starbase.codes](https://starbase.codes)
 
