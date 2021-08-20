@@ -15,7 +15,7 @@ any other Tool that might be added over time.
 | ----- | -------- | ------------ |
 | en-US | English  | Finished     |
 | de-DE | German   | Needs Update |
-| ru-RU | Russian  | Needs Update |
+| ru-RU | Russian  | Finished     |
 
 ## 🤔 Stay In Touch
 
