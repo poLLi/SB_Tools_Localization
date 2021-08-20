@@ -127,7 +127,11 @@ export default {
             TOTAL_HEAT_HEAD: 'Выделяемое тепло',
             TOTAL_HEAT_SUB: '(приблизительно)',
             TOTAL_HEAT_TOOLTIP: 'Тепло расчитано как если бы генераторы были присоеденены друг к дуруг. Обычно +25 тепла на каждый следующий генератор',
-            TOTAL_COOLING: 'Рассеивание тепла'
+            TOTAL_COOLING: 'Рассеивание тепла',
+
+            ENERGY_GEN: 'Energy Generation',
+            ENERGY_DRAIN_THRUSTER: 'Energy Drain (Thruster)',
+            ENERGY_DRAIN_TOOLS: 'Energy Drain (Tools)'
         },
 
         TOOLS: {

@@ -127,7 +127,11 @@ export default {
             TOTAL_HEAT_HEAD: 'Heat Generation',
             TOTAL_HEAT_SUB: '(estimated)',
             TOTAL_HEAT_TOOLTIP: 'Heat is calculated with one Generator adjacent to another. Basically +25 Heat for every Generator.',
-            TOTAL_COOLING: 'Heat Dissipation'
+            TOTAL_COOLING: 'Heat Dissipation',
+
+            ENERGY_GEN: 'Energy Generation',
+            ENERGY_DRAIN_THRUSTER: 'Energy Drain (Thruster)',
+            ENERGY_DRAIN_TOOLS: 'Energy Drain (Tools)'
         },
 
         TOOLS: {

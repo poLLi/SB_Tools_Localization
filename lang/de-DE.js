@@ -127,7 +127,11 @@ export default {
             TOTAL_HEAT_HEAD: 'Wärme entwicklung',
             TOTAL_HEAT_SUB: '(geschätzt)',
             TOTAL_HEAT_TOOLTIP: 'Wärme wird berechnet mit einem +25 Hitze pro Generator',
-            TOTAL_COOLING: 'Kühlung'
+            TOTAL_COOLING: 'Kühlung',
+
+            ENERGY_GEN: 'Energie Generation',
+            ENERGY_DRAIN_THRUSTER: 'Energie verbrauch (Antrieb)',
+            ENERGY_DRAIN_TOOLS: 'Energie verbrauch (Tools)'
         },
 
         TOOLS: {
