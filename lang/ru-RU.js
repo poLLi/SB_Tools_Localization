@@ -4,20 +4,20 @@ export default {
     // NAVIGATION
     MENU: {
         START: 'Главная',
-        DESIGNER: 'Расчитать корабль',
+        DESIGNER: 'Калькулятор',
         MAP: 'Карта',
         MORE: 'Больше',
         DATABASE: 'База знаний',
         CONTACT: 'Контакты',
         OPTIONS_EXTRA_TITLE: '> Прочее',
-        OPTIONS_CHANGELOG: 'Что нового'
+        OPTIONS_CHANGELOG: 'История обновлений'
     },
 
     // ---------------------------
     // PAGE: START
     START: {
-        HEADLINE_TITLE: 'Web-Утилиты от/для сообщества',
-        HEADLINE_DESCRIPTION: 'Всё что тебе нужно, чтобы выжить в Starbase!'
+        HEADLINE_TITLE: 'Инструменты сообщества',
+        HEADLINE_DESCRIPTION: 'Всё необходимое для выживания в Starbase!'
     },
 
     // ---------------------------
@@ -40,9 +40,9 @@ export default {
 
         THRUSTER: {
             EFFICIENCY_HEADLINE: 'Эффективность',
-            EFFICIENCY_THRUSTER: 'Эффективность двигателей',
-            EFFICIENCY_TOOLTIP: '100% Эффективность достижима только при идеальной симметрии корабля, что почти невозможно.',
-            FORWARD_THRUSTER: 'Маршевый двигатель',
+            EFFICIENCY_THRUSTER: 'КПД двигателей',
+            EFFICIENCY_TOOLTIP: '100% КПД достижим только при идеальной симметрии корабля',
+            FORWARD_THRUSTER: 'Маршевые двигатели',
             BACKWARD_THRUSTER: 'Двигатели заднего хода',
             MANEUVER_THRUSTER: 'Маневровые двигатели',
             BOX_T1: 'Прямоугольный двигатель T1',
@@ -129,9 +129,9 @@ export default {
             TOTAL_HEAT_TOOLTIP: 'Тепло расчитано как если бы генераторы были присоеденены друг к дуруг. Обычно +25 тепла на каждый следующий генератор',
             TOTAL_COOLING: 'Рассеивание тепла',
 
-            ENERGY_GEN: 'Energy Generation',
-            ENERGY_DRAIN_THRUSTER: 'Energy Drain (Thruster)',
-            ENERGY_DRAIN_TOOLS: 'Energy Drain (Tools)'
+            ENERGY_GEN: 'Выработка энергии',
+            ENERGY_DRAIN_THRUSTER: 'Потребление энергии (Двигатели)',
+            ENERGY_DRAIN_TOOLS: 'Потребление энергии (Инструменты)'
         },
 
         TOOLS: {
