@@ -39,8 +39,7 @@ export default {
         },
 
         THRUSTER: {
-            EFFICIENCY_TOOLTIP:
-                '100% efficiency is only reachable if your ship is in total symmetry which is almost impossible todo.',
+            EFFICIENCY_TOOLTIP: '100% efficiency is only reachable if your ship is in total symmetry which is almost impossible todo.',
             FORWARD_THRUSTER: 'Forward Thruster',
             BACKWARD_THRUSTER: 'Backward Thruster',
             MANEUVER_THRUSTER: 'Maneuver Thruster',
@@ -103,8 +102,7 @@ export default {
             FORWARD_SPEED_FULL: 'Forward Speed (full Crates)',
 
             FORWARD_SPEED_HALF_TOOLTIP: 'Half Crates is calculated with the rough average weight of ores (15t/stack)',
-            FORWARD_SPEED_FULL_TOOLTIP:
-                'Full Crates is calculated with the highest weight of ores (26t/stack - Lukium)',
+            FORWARD_SPEED_FULL_TOOLTIP: 'Full Crates is calculated with the highest weight of ores (26t/stack - Lukium)',
 
             FLIGHT_TIME_HEAD: 'Flight Times',
             FLIGHT_TIME_SUB: '(Propellant)',
@@ -126,8 +124,7 @@ export default {
 
             TOTAL_HEAT_HEAD: 'Heat Generation',
             TOTAL_HEAT_SUB: '(estimated)',
-            TOTAL_HEAT_TOOLTIP:
-                'Heat is calculated with one Generator adjacent to another. Basically +25 Heat for every Generator.',
+            TOTAL_HEAT_TOOLTIP: 'Heat is calculated with one Generator adjacent to another. Basically +25 Heat for every Generator.',
             TOTAL_COOLING: 'Heat Dissipation'
         },
 

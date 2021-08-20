@@ -39,8 +39,7 @@ export default {
         },
 
         THRUSTER: {
-            EFFICIENCY_TOOLTIP:
-                '100% efficiency is only reachable if your ship is in total symmetry which is almost impossible todo.',
+            EFFICIENCY_TOOLTIP: '100% efficiency is only reachable if your ship is in total symmetry which is almost impossible todo.',
             FORWARD_THRUSTER: 'Vorwärts Triebwerk',
             BACKWARD_THRUSTER: 'Rückwärts Triebwerk',
             MANEUVER_THRUSTER: 'Manöver Triebwerk',
@@ -102,15 +101,13 @@ export default {
             FORWARD_SPEED_HALF: 'Geschwindigkeit (halbe Kisten)',
             FORWARD_SPEED_FULL: 'Geschwindigkeit (volle Kisten)',
 
-            FORWARD_SPEED_HALF_TOOLTIP:
-                'Halbe Kisten wird berechnet mit dem groben durschnitt der Erz gewichte (15t/stack)',
+            FORWARD_SPEED_HALF_TOOLTIP: 'Halbe Kisten wird berechnet mit dem groben durschnitt der Erz gewichte (15t/stack)',
             FORWARD_SPEED_FULL_TOOLTIP: 'Volle Kisten wird berechnet mit dem schwersten Erz (26t/stack - Lukium)',
 
             FLIGHT_TIME_HEAD: 'Flugzeiten',
             FLIGHT_TIME_SUB: '(Treibstoff)',
             FLIGHT_TIME: 'Flugzeit',
-            FLIGHT_TIME_TOOLTIP:
-                'Ungefähgre Flugzeit wird berechnet mit vollem Vorwärts Schub und halber Manöver Schub',
+            FLIGHT_TIME_TOOLTIP: 'Ungefähgre Flugzeit wird berechnet mit vollem Vorwärts Schub und halber Manöver Schub',
 
             FLIGHT_LENGTH: 'Fluglänge',
             FLIGHT_LENGTH_HALF: 'Fluglänge (halbe Kisten)',
