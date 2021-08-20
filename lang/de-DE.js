@@ -39,6 +39,8 @@ export default {
         },
 
         THRUSTER: {
+            EFFICIENCY_HEADLINE: 'Effizienz',
+            EFFICIENCY_THRUSTER: 'Triebwerk Effizienz',
             EFFICIENCY_TOOLTIP: '100% efficiency is only reachable if your ship is in total symmetry which is almost impossible todo.',
             FORWARD_THRUSTER: 'Vorwärts Triebwerk',
             BACKWARD_THRUSTER: 'Rückwärts Triebwerk',

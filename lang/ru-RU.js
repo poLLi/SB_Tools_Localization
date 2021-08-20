@@ -39,6 +39,8 @@ export default {
         },
 
         THRUSTER: {
+            EFFICIENCY_HEADLINE: 'Efficiency',
+            EFFICIENCY_THRUSTER: 'Thruster Efficiency',
             EFFICIENCY_TOOLTIP: '100% КПД достижимо только при идеальной симметрии корабля, что почти невозможно.',
             FORWARD_THRUSTER: 'Маршевый двигатель',
             BACKWARD_THRUSTER: 'Двигатели заднего хода',

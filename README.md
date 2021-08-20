@@ -11,11 +11,11 @@ any other Tool that might be added over time.
 
 ## Translations
 
-| Code  | Language | Status          |
-| ----- | -------- | --------------- |
-| en-US | English  | Finished        |
-| de-DE | German   | Needs Update    |
-| ru-RU | Russian  | Finished        |
+| Code  | Language | Status       |
+| ----- | -------- | ------------ |
+| en-US | English  | Finished     |
+| de-DE | German   | Needs Update |
+| ru-RU | Russian  | Needs Update |
 
 ## 🤔 Stay In Touch
 
