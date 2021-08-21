@@ -28,6 +28,7 @@ export default {
             PROP_FUEL_ENERGY_TITLE: 'Treibstoff und Strom',
             WEIGHT_MISC_TITLE: 'Gewicht und Lager',
             TOOLS_TITLE: 'Tools',
+            WEAPON_TITLE: 'Weapon',
             CALCULATION_TITLE: 'Berechnung'
         },
 
@@ -96,6 +97,22 @@ export default {
             CRATES: 'Anzahl der Erzkisten'
         },
 
+        TOOLS: {
+            MINING_LASER: 'Mining Laser',
+            MINING_BATTERY_TIME: 'Batterie unterstützung in sekunden',
+            ORE_COLLECTOR: 'Ore Collector',
+            MATERIAL_SCANNER: 'Material Point Scanner',
+            LASER_DESIGNATOR: 'Laser Designator',
+            RANGEFINDER: 'Rangefinder'
+        },
+
+        WEAPON: {
+            AUTO_CANNON: 'Auto Cannon',
+            LASER_CANNON: 'Laser Cannon',
+            PLASMA_CANNON: 'Plasma Cannon',
+            RAIL_CANNON: 'Rail Cannon'
+        },
+
         CALCULATION: {
             SPEED: 'Geschwindigkeit',
             FORWARD_SPEED: 'Vorwärts Geschwindigkeit',
@@ -107,7 +124,6 @@ export default {
             FORWARD_SPEED_FULL_TOOLTIP: 'Volle Kisten wird berechnet mit dem schwersten Erz (26t/stack - Lukium)',
 
             FLIGHT_TIME_HEAD: 'Flugzeiten',
-            FLIGHT_TIME_SUB: '(Treibstoff)',
             FLIGHT_TIME: 'Flugzeit',
             FLIGHT_TIME_TOOLTIP: 'Ungefähgre Flugzeit wird berechnet mit vollem Vorwärts Schub und halber Manöver Schub',
 
@@ -130,16 +146,12 @@ export default {
             TOTAL_COOLING: 'Kühlung',
 
             ENERGY_GEN: 'Energie Generation',
+            ENERGY_DRAIN_IDLE: 'Energy Drain (Idle)',
             ENERGY_DRAIN_THRUSTER: 'Energie verbrauch (Antrieb)',
-            ENERGY_DRAIN_TOOLS: 'Energie verbrauch (Tools)'
-        },
+            ENERGY_DRAIN_TOOLS: 'Energie verbrauch (Tools)',
+            ENERGY_DRAIN_WEAPONS: 'Energy Drain (Weapons)',
 
-        TOOLS: {
-            MINING_LASER: 'Mining Laser',
-            ORE_COLLECTOR: 'Ore Collector',
-            MATERIAL_SCANNER: 'Material Point Scanner',
-            LASER_DESIGNATOR: 'Laser Designator',
-            RANGEFINDER: 'Rangefinder'
+            MINING_BATTERYS: 'Min Batterien für MiningLaser'
         }
     }
 };

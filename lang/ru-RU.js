@@ -28,6 +28,7 @@ export default {
             PROP_FUEL_ENERGY_TITLE: 'Топливо и энергия',
             WEIGHT_MISC_TITLE: 'Масса и груз',
             TOOLS_TITLE: 'Инструменты',
+            WEAPON_TITLE: 'Weapon',
             CALCULATION_TITLE: 'Расчёт'
         },
 
@@ -96,6 +97,22 @@ export default {
             CRATES: 'Количество ящиков для руды'
         },
 
+        TOOLS: {
+            MINING_LASER: 'Шахтёрский лазер',
+            MINING_BATTERY_TIME: 'Battery support time in seconds',
+            ORE_COLLECTOR: 'Сборщик руды',
+            MATERIAL_SCANNER: 'Точечный сканер материала',
+            LASER_DESIGNATOR: 'Лазерный целеуказатель',
+            RANGEFINDER: 'Дальномер'
+        },
+
+        WEAPON: {
+            AUTO_CANNON: 'Auto Cannon',
+            LASER_CANNON: 'Laser Cannon',
+            PLASMA_CANNON: 'Plasma Cannon',
+            RAIL_CANNON: 'Rail Cannon'
+        },
+
         CALCULATION: {
             SPEED: 'Скорость',
             FORWARD_SPEED: 'Скорость вперёд',
@@ -107,7 +124,6 @@ export default {
             FORWARD_SPEED_FULL_TOOLTIP: 'Полная загрузка считается по самой тяжёлой руде (26т/стак - Лукий)',
 
             FLIGHT_TIME_HEAD: 'Время полёта',
-            FLIGHT_TIME_SUB: '(Топливо)',
             FLIGHT_TIME: 'Время полёта',
             FLIGHT_TIME_TOOLTIP: 'Время считается при полном газе и 50% нагрузке на маневровые двигатели',
 
@@ -130,16 +146,12 @@ export default {
             TOTAL_COOLING: 'Рассеивание тепла',
 
             ENERGY_GEN: 'Выработка энергии',
+            ENERGY_DRAIN_IDLE: 'Energy Drain (idle)',
             ENERGY_DRAIN_THRUSTER: 'Потребление энергии (Двигатели)',
-            ENERGY_DRAIN_TOOLS: 'Потребление энергии (Инструменты)'
-        },
+            ENERGY_DRAIN_TOOLS: 'Потребление энергии (Инструменты)',
+            ENERGY_DRAIN_WEAPONS: 'Energy Drain (Weapons)',
 
-        TOOLS: {
-            MINING_LASER: 'Шахтёрский лазер',
-            ORE_COLLECTOR: 'Сборщик руды',
-            MATERIAL_SCANNER: 'Точечный сканер материала',
-            LASER_DESIGNATOR: 'Лазерный целеуказатель',
-            RANGEFINDER: 'Дальномер'
+            MINING_BATTERYS: 'Min Batteries for Mininglasser'
         }
     }
 };
