@@ -125,6 +125,8 @@ export default {
 
             FLIGHT_TIME_HEAD: 'Flight Times',
             FLIGHT_TIME: 'Flight Time',
+            FLIGHT_TIME_FUEL: 'Fuel',
+            FLIGHT_TIME_PROP: 'Propellant',
             FLIGHT_TIME_TOOLTIP: 'Flight Time is calculated with full forward thrust as well as half maneuver thrust.',
 
             FLIGHT_LENGTH: 'Flight Length',

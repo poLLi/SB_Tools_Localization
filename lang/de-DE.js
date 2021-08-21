@@ -125,6 +125,8 @@ export default {
 
             FLIGHT_TIME_HEAD: 'Flugzeiten',
             FLIGHT_TIME: 'Flugzeit',
+            FLIGHT_TIME_FUEL: 'Brennstoff',
+            FLIGHT_TIME_PROP: 'Treistoff',
             FLIGHT_TIME_TOOLTIP: 'Ungefähgre Flugzeit wird berechnet mit vollem Vorwärts Schub und halber Manöver Schub',
 
             FLIGHT_LENGTH: 'Fluglänge',

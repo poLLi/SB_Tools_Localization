@@ -125,6 +125,8 @@ export default {
 
             FLIGHT_TIME_HEAD: 'Время полёта',
             FLIGHT_TIME: 'Время полёта',
+            FLIGHT_TIME_FUEL: 'Fuel',
+            FLIGHT_TIME_PROP: 'Propellant',
             FLIGHT_TIME_TOOLTIP: 'Время считается при полном газе и 50% нагрузке на маневровые двигатели',
 
             FLIGHT_LENGTH: 'Дальность полёта',
