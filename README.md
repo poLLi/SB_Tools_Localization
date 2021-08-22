@@ -14,7 +14,7 @@ any other Tool that might be added over time.
 | Code  | Language            | Status       |
 | ----- | ------------------- | ------------ |
 | en-US | English             | Finished     |
-| pt-BR | Portuguese (Brazil) | Needs Update |
+| pt-BR | Portuguese (Brazil) | Finished     |
 | de-DE | German              | Needs Update |
 | ru-RU | Russian             | Needs Update |
 
