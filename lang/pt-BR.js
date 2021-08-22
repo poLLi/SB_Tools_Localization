@@ -7,6 +7,7 @@ export default {
         DESIGNER: 'Calculadora-de-Naves',
         MAP: 'Mapa',
         MORE: 'Mais',
+        YOLOL: 'Yolol',
         DATABASE: 'Banco de Dados',
         CONTACT: 'Contato',
         OPTIONS_EXTRA_TITLE: '> Extras',
@@ -94,6 +95,7 @@ export default {
 
         WEIGHT_CARGO: {
             WEIGHT: 'Peso total em toneladas',
+            WEIGHT_TOOLTIP: 'You can see your ship mass if you try to pick it up with [P]. (tons =kg/1000)',
             CRATES: 'Número de Caixas de Minério'
         },
 

@@ -7,6 +7,7 @@ export default {
         DESIGNER: 'Калькулятор',
         MAP: 'Карта',
         MORE: 'Больше',
+        YOLOL: 'Yolol',
         DATABASE: 'База знаний',
         CONTACT: 'Контакты',
         OPTIONS_EXTRA_TITLE: '> Прочее',
@@ -94,6 +95,7 @@ export default {
 
         WEIGHT_CARGO: {
             WEIGHT: 'Общий вес в тоннах (пустой)',
+            WEIGHT_TOOLTIP: 'You can see your ship mass if you try to pick it up with [P]. (tons =kg/1000)',
             CRATES: 'Количество ящиков для руды'
         },
 

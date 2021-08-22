@@ -9,7 +9,7 @@ Please note we have a [code of conduct](./CODE_OF_CONDUCT.md), please follow it 
 
 1. Ensure all formatings are correct.
 2. Update README.md with details of changes (Add/Update Translations to the Translations Table in Readme.md).
-3. The Pull Request will be merged in once you have the sign-off of the Dead Matter Tools developer.
+3. The Pull Request will be merged in once you have the sign-off of the Core Dev Team.
 
 ## Translations Table Example
 

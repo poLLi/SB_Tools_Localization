@@ -7,6 +7,7 @@ export default {
         DESIGNER: 'Ship-Calculator',
         MAP: 'Map',
         MORE: 'More',
+        YOLOL: 'Yolol',
         DATABASE: 'Database',
         CONTACT: 'Contact',
         OPTIONS_EXTRA_TITLE: '> Extras',
@@ -94,6 +95,7 @@ export default {
 
         WEIGHT_CARGO: {
             WEIGHT: 'Overall weight in tons',
+            WEIGHT_TOOLTIP: 'You can see your ship mass if you try to pick it up with [P]. (tons =kg/1000)',
             CRATES: 'Number of Ore Crates'
         },
 
