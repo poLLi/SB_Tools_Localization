@@ -57,7 +57,7 @@ export default {
             MANEUVER_T2: 'Propulsor de Manobra T2',
             MANEUVER_T3: 'Propulsor de Manobra T3',
             PLASMA_BODY: 'Corpo do Propulsor de Plasma',
-            PLASMA_RING: 'Anel do Propulsor de Plama'
+            PLASMA_RING: 'Anel do Propulsor de Plasma'
         },
 
         PROPELLANT: {
@@ -95,7 +95,7 @@ export default {
 
         WEIGHT_CARGO: {
             WEIGHT: 'Peso total em toneladas',
-            WEIGHT_TOOLTIP: 'You can see your ship mass if you try to pick it up with [P]. (tons =kg/1000)',
+            WEIGHT_TOOLTIP: 'Você pode ver o peso de sua nave ao tentar pegá-la pressionando [P]. (toneladas = kg/1000)',
             CRATES: 'Número de Caixas de Minério'
         },
 
