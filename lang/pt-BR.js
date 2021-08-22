@@ -153,7 +153,7 @@ export default {
             ENERGY_DRAIN_TOOLS: 'Consumo de Energia (Ferramentas)',
             ENERGY_DRAIN_WEAPONS: 'Consumo de Energia (Armas)',
 
-            MINING_BATTERYS: 'Baterias Minímas para o Laser de Mineração'
+            MINING_BATTERYS: 'Baterias Mínimas para o Laser de Mineração'
         }
     }
 };
