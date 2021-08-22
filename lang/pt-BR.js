@@ -95,7 +95,7 @@ export default {
 
         WEIGHT_CARGO: {
             WEIGHT: 'Peso total em toneladas',
-            WEIGHT_TOOLTIP: 'Você pode ver o peso de sua nave ao tentar pegá-lo pressionando [P]. (toneladas = kg/1000)',
+            WEIGHT_TOOLTIP: 'Você pode ver o peso de sua nave ao tentar pegá-la pressionando [P]. (toneladas = kg/1000)',
             CRATES: 'Número de Caixas de Minério'
         },
 
