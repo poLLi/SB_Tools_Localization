@@ -120,7 +120,7 @@ export default {
             FORWARD_SPEED: '前进速度',
             BACKWARD_SPEED: '后退速度',
             FORWARD_SPEED_HALF: '前进速度（半箱）',
-            FORWARD_SPEED_FULL: '后退速度（满箱）',
+            FORWARD_SPEED_FULL: '前进速度（满箱）',
 
             FORWARD_SPEED_HALF_TOOLTIP: '半箱按矿石粗平均重量（15t/stack）计算',
             FORWARD_SPEED_FULL_TOOLTIP: '满箱按矿石的最高重量计算（26t/stack-Lukium）',
