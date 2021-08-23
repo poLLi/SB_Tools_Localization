@@ -18,6 +18,7 @@ any other Tool that might be added over time.
 | pt-BR | Portuguese (Brazil) | Finished     |
 | de-DE | German              | Needs Update |
 | ru-RU | Russian             | Needs Update |
+| cn-ZH | Chinese             | Finished     |
 
 ## 🤔 Stay In Touch
 
