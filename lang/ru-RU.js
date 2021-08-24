@@ -117,7 +117,7 @@ export default {
 
         TOOLS: {
             MINING_LASER: 'Шахтёрский лазер',
-            MINING_BATTERY_TIME: 'Battery support time in seconds',
+            MINING_BATTERY_TIME: 'Желаемое время работы от батарей (секунды)',
             ORE_COLLECTOR: 'Сборщик руды',
             MATERIAL_SCANNER: 'Точечный сканер материала',
             LASER_DESIGNATOR: 'Лазерный целеуказатель',
