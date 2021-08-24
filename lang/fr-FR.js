@@ -4,31 +4,31 @@ export default {
     // NAVIGATION
     MENU: {
         START: 'Démarrer',
-        DESIGNER: 'Ship-Designer',
-        CALCULATOR: '> Calculator',
+        DESIGNER: 'Designer de vaisseaux',
+        CALCULATOR: '> Calculateur',
         SHIP_CALCULATOR: 'Calculateur de vaisseaux',
-        CAPT_CALCULATOR: 'Capital Ship',
+        CAPT_CALCULATOR: 'Vaisseau Mère',
         MAP: 'Carte',
         MORE: 'Suite',
         YOLOL: 'Yolol',
         CONTACT: 'Contact',
         OPTIONS: 'Options',
-        OPTIONS_LANGUAGE: '> Change Language',
+        OPTIONS_LANGUAGE: '> Changer la langue',
         OPTIONS_EXTRA_TITLE: '> Extras',
-        OPTIONS_CHANGELOG: 'journal des modifications'
+        OPTIONS_CHANGELOG: 'Journal des modifications'
     },
 
     // ---------------------------
     // PAGE: START
     START: {
         HEADLINE_TITLE: 'Outils Web communautaires',
-        HEADLINE_SUB: '( unofficial )',
+        HEADLINE_SUB: '( Non-Officiel )',
         HEADLINE_DESCRIPTION: 'Tout ce dont vous avez besoin pour survivre sur Starbase !',
 
-        DEVELOPER_NOTE: 'Tools made with ',
-        DEVELOPER_NOTE_BY: ' by ',
-        DEVELOPER_NOTE_LIKE: 'Like my work?',
-        DEVELOPER_NOTE_COFFEE: 'Buy me a Coffee'
+        DEVELOPER_NOTE: 'Outils crées par ',
+        DEVELOPER_NOTE_BY: ' par ',
+        DEVELOPER_NOTE_LIKE: 'Vous aimez mon travail ?',
+        DEVELOPER_NOTE_COFFEE: 'Offrez moi un caffé'
     },
 
     // ---------------------------
@@ -67,7 +67,7 @@ export default {
             MANEUVER_T2: 'Propulseur de manœuvre T2',
             MANEUVER_T3: 'Propulseur de manœuvre T3',
             PLASMA_BODY: 'Corps du propulseur à Plasma',
-            PLASMA_RING: 'Anneau du propulseur à Plasma'
+            PLASMA_RING: 'Anneaux du propulseur à Plasma'
         },
 
         PROPELLANT: {
@@ -110,7 +110,7 @@ export default {
         },
 
         TOOLS: {
-            MINING_LASER: 'Laser minier',
+            MINING_LASER: 'Laser de minage',
             MINING_BATTERY_TIME: 'Temps de maintien de la batterie en secondes',
             ORE_COLLECTOR: 'Collecteur de minerais',
             MATERIAL_SCANNER: 'Scanner de points de matériaux',
@@ -172,48 +172,48 @@ export default {
     // ---------------------------
     // PAGE: Capital-Calculator
     CAPT_SHIP: {
-        HEADLINE_TITLE: 'Capital-Ship Caluclator',
-        HEADLINE_SUB: 'Yea... Same as the normal ship calc but for Captital Ships',
-        WIP: 'Sorry! Not done yet :)'
+        HEADLINE_TITLE: 'Calculateur Vaisseaux Mères',
+        HEADLINE_SUB: 'Oui... Comme pour le calcul normal des vaisseaux, mais pour les vaisseaux capitaux.',
+        WIP: 'Désolé ! Pas encore terminé. :)'
     },
 
     // ---------------------------
     // PAGE: Yolol-Calculator
     YOLOL: {
-        HEADLINE_TITLE: 'Yolol Codes',
-        HEADLINE_SUB: 'Collection of usefull yolol codes and debug/dev tools',
-        WIP: 'Sorry! Not done yet :)'
+        HEADLINE_TITLE: 'Codes Yolol',
+        HEADLINE_SUB: 'Collection de codes yolol utiles et d\'outils de débogage/développement',
+        WIP: 'Désolé ! Pas encore réalisé. :)'
     },
 
     // ---------------------------
     // PAGE: Map
     MAP: {
-        HEADLINE_TITLE: 'Interactive Map',
-        HEADLINE_SUB: 'Full detailed Galaxy map of Starbase',
-        WIP: 'Sorry! Not done yet :)'
+        HEADLINE_TITLE: 'Carte intéractive',
+        HEADLINE_SUB: 'Carte détaillée de la galaxie de la base stellaire',
+        WIP: 'Désolé ! Pas encore réalisé :)'
     },
 
     // ---------------------------
     // PAGE: Contact
     CONTACT: {
         HEADLINE_TITLE: 'Contact',
-        HEADLINE_SUB: 'Yep thats me...',
-        ABOUT_TITLE: 'About Me',
-        ABOUT_TEXT: 'Hey, I´m PoLLi. I made this somewhat functional website...',
-        CONTACT_TEXT: 'If u would like to get in contact with me you can do so by the following details listed below.',
-        CHANNELS: 'Channels',
-        PERSONAL_DISCORD: 'Personal Discord: ',
+        HEADLINE_SUB: 'yep, c\'est moi...',
+        ABOUT_TITLE: 'A propos de moi',
+        ABOUT_TEXT: 'Salut, je m\'appelle PoLLi. J\'ai fait ce site web un peu fonctionnel...',
+        CONTACT_TEXT: 'Si vous souhaitez prendre contact avec moi, vous pouvez le faire en utilisant les coordonnées suivantes.',
+        CHANNELS: 'Chaînes',
+        PERSONAL_DISCORD: 'Discord Personnel: ',
         GITHUB: 'Github',
-        PERSONAL_GITHUB: 'Personal Github: ',
+        PERSONAL_GITHUB: 'Github Personnel: ',
         NETWORK_GITHUB: 'JLN Github: ',
         SOCIAL: 'Social',
-        PERSONAL_SOCIAL: 'Personal: '
+        PERSONAL_SOCIAL: 'Personnel: '
     },
 
     // ---------------------------
     // PAGE: Changelog
     CHANGELOG: {
-        HEADLINE_TITLE: 'Changelog',
-        HEADLINE_SUB: 'well... yea thats what you would expect here'
+        HEADLINE_TITLE: 'Historique des modifications',
+        HEADLINE_SUB: 'Eh bien... oui, c\'est ce à quoi on peut s\'attendre ici.'
     }
 };
