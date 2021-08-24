@@ -18,7 +18,8 @@ any other Tool that might be added over time.
 | pt-BR | Portuguese (Brazil) | Needs Update |
 | de-DE | German              | Needs Update |
 | ru-RU | Russian             | Needs Update |
-| cn-ZH | Chinese             | Needs Update |
+| zh-CN | Chinese             | Finished     |
+| zh-TW | Chinese(Traditional)| Finished     |
 
 ## 🤔 Stay In Touch
 
