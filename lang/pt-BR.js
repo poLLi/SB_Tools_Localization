@@ -34,6 +34,12 @@ export default {
     // ---------------------------
     // PAGE: Spaceship-Calculator
     SHIP_CALC: {
+        WARNING: {
+            HEADLINE: 'WARNING: ',
+            SUBLINE: 'Almost everything is subject to change. ',
+            VERSION: 'Current Version: '
+        },
+        
         CARD: {
             TRUSTER_TITLE: 'Propulsor',
             PROP_FUEL_ENERGY_TITLE: 'Combustível e Energia',
