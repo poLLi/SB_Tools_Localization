@@ -36,7 +36,7 @@ export default {
     SHIP_CALC: {
         WARNING: {
             HEADLINE: 'ВНИМАНИЕ: ',
-            SUBLINE: 'Почти все может измениться. ',
+            SUBLINE: 'Почти всё может поменяться. ',
             VERSION: 'Текущая версия: '
         },
 
