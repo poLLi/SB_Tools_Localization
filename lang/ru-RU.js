@@ -4,16 +4,16 @@ export default {
     // NAVIGATION
     MENU: {
         START: 'Главная',
-        DESIGNER: 'Ship-Designer',
-        CALCULATOR: '> Calculator',
-        SHIP_CALCULATOR: 'Калькулятор',
-        CAPT_CALCULATOR: 'Capital Ship',
+        DESIGNER: 'Проектирование кораблей',
+        CALCULATOR: '> Калькулятор',
+        SHIP_CALCULATOR: 'Обычный корабль',
+        CAPT_CALCULATOR: 'Большой корабль',
         MAP: 'Карта',
         MORE: 'Больше',
         YOLOL: 'Yolol',
         CONTACT: 'Контакты',
-        OPTIONS: 'Options',
-        OPTIONS_LANGUAGE: '> Change Language',
+        OPTIONS: 'Настройки',
+        OPTIONS_LANGUAGE: '> Сменить язык',
         OPTIONS_EXTRA_TITLE: '> Прочее',
         OPTIONS_CHANGELOG: 'История обновлений'
     },
@@ -22,22 +22,22 @@ export default {
     // PAGE: START
     START: {
         HEADLINE_TITLE: 'Инструменты сообщества',
-        HEADLINE_SUB: '( unofficial )',
+        HEADLINE_SUB: '( неофициальные )',
         HEADLINE_DESCRIPTION: 'Всё необходимое для выживания в Starbase!',
 
-        DEVELOPER_NOTE: 'Tools made with ',
-        DEVELOPER_NOTE_BY: ' by ',
-        DEVELOPER_NOTE_LIKE: 'Like my work?',
-        DEVELOPER_NOTE_COFFEE: 'Buy me a Coffee'
+        DEVELOPER_NOTE: 'Инструменты сделаны с ',
+        DEVELOPER_NOTE_BY: ' от ',
+        DEVELOPER_NOTE_LIKE: 'Нравится моя работа?',
+        DEVELOPER_NOTE_COFFEE: 'Купите мне кофе'
     },
 
     // ---------------------------
     // PAGE: Spaceship-Calculator
     SHIP_CALC: {
         WARNING: {
-            HEADLINE: 'WARNING: ',
-            SUBLINE: 'Almost everything is subject to change. ',
-            VERSION: 'Current Version: '
+            HEADLINE: 'ВНИМАНИЕ: ',
+            SUBLINE: 'Почти все может измениться. ',
+            VERSION: 'Текущая версия: '
         },
 
         CARD: {
@@ -45,7 +45,7 @@ export default {
             PROP_FUEL_ENERGY_TITLE: 'Топливо и энергия',
             WEIGHT_MISC_TITLE: 'Масса и груз',
             TOOLS_TITLE: 'Инструменты',
-            WEAPON_TITLE: 'Weapon',
+            WEAPON_TITLE: 'Оружие',
             CALCULATION_TITLE: 'Расчёт'
         },
 
@@ -72,7 +72,7 @@ export default {
             MANEUVER_T1: 'Маневровый двигатель T1',
             MANEUVER_T2: 'Маневровый двигатель T2',
             MANEUVER_T3: 'Маневровый двигатель T3',
-            PLASMA_BODY: 'Корпус плазменного двигателя',
+            PLASMA_BODY: 'Основание плазменного двигателя',
             PLASMA_RING: 'Кольцо плазменного двигателя'
         },
 
@@ -110,8 +110,8 @@ export default {
         },
 
         WEIGHT_CARGO: {
-            WEIGHT: 'Общий вес в тоннах (пустой)',
-            WEIGHT_TOOLTIP: 'You can see your ship mass if you try to pick it up with [P]. (tons =kg/1000)',
+            WEIGHT: 'Общий вес в тоннах (с пустыми контейнерами)',
+            WEIGHT_TOOLTIP: 'Вы можете узнать масску корабля, попытавшись его подобрать [P].',
             CRATES: 'Количество ящиков для руды'
         },
 
@@ -125,10 +125,10 @@ export default {
         },
 
         WEAPON: {
-            AUTO_CANNON: 'Auto Cannon',
-            LASER_CANNON: 'Laser Cannon',
-            PLASMA_CANNON: 'Plasma Cannon',
-            RAIL_CANNON: 'Rail Cannon'
+            AUTO_CANNON: 'Автопушки',
+            LASER_CANNON: 'Лазерные пушки',
+            PLASMA_CANNON: 'Плазменные пушки',
+            RAIL_CANNON: 'Рельсотроны'
         },
 
         CALCULATION: {
@@ -141,14 +141,14 @@ export default {
             FORWARD_SPEED_HALF_TOOLTIP: 'Половинная загрузка считается по средней массе руды (15т/стак)',
             FORWARD_SPEED_FULL_TOOLTIP: 'Полная загрузка считается по самой тяжёлой руде (26т/стак - Лукий)',
 
-            FLIGHT_TIME_HEAD: 'Время полёта',
-            FLIGHT_TIME: 'Время полёта',
-            FLIGHT_TIME_FUEL: 'Fuel',
-            FLIGHT_TIME_PROP: 'Propellant',
+            FLIGHT_TIME_HEAD: 'Продолжительность полёта',
+            FLIGHT_TIME: 'Продолжительность полёта',
+            FLIGHT_TIME_FUEL: 'Топливо',
+            FLIGHT_TIME_PROP: 'Жидкое топливо',
             FLIGHT_TIME_TOOLTIP: 'Время считается при полном газе и 50% нагрузке на маневровые двигатели',
 
             FLIGHT_LENGTH: 'Дальность полёта',
-            FLIGHT_LENGTH_HALF: 'Дальнвиннаяость полёта (половинная загрузка)',
+            FLIGHT_LENGTH_HALF: 'Дальность полёта (половинная загрузка)',
             FLIGHT_LENGTH_FULL: 'Дальность полёта (полная загрузка)',
 
             THRUST: 'Тяга',
@@ -166,60 +166,60 @@ export default {
             TOTAL_COOLING: 'Рассеивание тепла',
 
             ENERGY_GEN: 'Выработка энергии',
-            ENERGY_DRAIN_IDLE: 'Energy Drain (idle)',
+            ENERGY_DRAIN_IDLE: 'Потребление энергии (Пассивно)',
             ENERGY_DRAIN_THRUSTER: 'Потребление энергии (Двигатели)',
             ENERGY_DRAIN_TOOLS: 'Потребление энергии (Инструменты)',
-            ENERGY_DRAIN_WEAPONS: 'Energy Drain (Weapons)',
+            ENERGY_DRAIN_WEAPONS: 'Потребление энергии (Орежие)',
 
-            MINING_BATTERYS: 'Min Batteries for Mininglasser'
+            MINING_BATTERYS: 'Минимальное количество аккумуляторов для шахтёрских лазеров'
         }
     },
     
     // ---------------------------
     // PAGE: Capital-Calculator
     CAPT_SHIP: {
-        HEADLINE_TITLE: 'Capital-Ship Caluclator',
-        HEADLINE_SUB: 'Yea... Same as the normal ship calc but for Captital Ships',
-        WIP: 'Sorry! Not done yet :)'
+        HEADLINE_TITLE: 'Калькулятор больших кораблей',
+        HEADLINE_SUB: 'Нууу... Это также, как для обычных, но только для больших.',
+        WIP: 'Извините! Ещё не готово :)'
     },
 
     // ---------------------------
     // PAGE: Yolol-Calculator
     YOLOL: {
-        HEADLINE_TITLE: 'Yolol Codes',
-        HEADLINE_SUB: 'Collection of usefull yolol codes and debug/dev tools',
-        WIP: 'Sorry! Not done yet :)'
+        HEADLINE_TITLE: 'Yolol',
+        HEADLINE_SUB: 'Коллекция полезных yolol-скриптов и инструментов для разработки.',
+        WIP: 'Ещё не готово! Загляните позже :)'
     },
 
     // ---------------------------
     // PAGE: Map
     MAP: {
-        HEADLINE_TITLE: 'Interactive Map',
-        HEADLINE_SUB: 'Full detailed Galaxy map of Starbase',
-        WIP: 'Sorry! Not done yet :)'
+        HEADLINE_TITLE: 'Интерактивная карта',
+        HEADLINE_SUB: 'Детальная карта галактики Starbase',
+        WIP: 'Ещё не готово! Следите за обновлениями :)'
     },
 
     // ---------------------------
     // PAGE: Contact
     CONTACT: {
-        HEADLINE_TITLE: 'Contact',
-        HEADLINE_SUB: 'Yep thats me...',
-        ABOUT_TITLE: 'About Me',
-        ABOUT_TEXT: 'Hey, I´m PoLLi. I made this somewhat functional website...',
-        CONTACT_TEXT: 'If u would like to get in contact with me you can do so by the following details listed below.',
-        CHANNELS: 'Channels',
-        PERSONAL_DISCORD: 'Personal Discord: ',
+        HEADLINE_TITLE: 'Контакты',
+        HEADLINE_SUB: 'Да, это я...',
+        ABOUT_TITLE: 'Обо мне',
+        ABOUT_TEXT: 'Привет, я PoLLi. И я сделал сайт, который работает...',
+        CONTACT_TEXT: 'Если вы хотите связаться со мной, вы можете это сделать по следующим ссылкам.',
+        CHANNELS: 'Каналы',
+        PERSONAL_DISCORD: 'Личный Discord: ',
         GITHUB: 'Github',
-        PERSONAL_GITHUB: 'Personal Github: ',
+        PERSONAL_GITHUB: 'Личный Github: ',
         NETWORK_GITHUB: 'JLN Github: ',
-        SOCIAL: 'Social',
+        SOCIAL: 'Соцсети',
         PERSONAL_SOCIAL: 'Personal: '
     },
 
     // ---------------------------
     // PAGE: Changelog
     CHANGELOG: {
-        HEADLINE_TITLE: 'Changelog',
-        HEADLINE_SUB: 'well... yea thats what you would expect here'
+        HEADLINE_TITLE: 'История изменений',
+        HEADLINE_SUB: 'Это именно то, что написано в заголовке :)'
     }
 };
