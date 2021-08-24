@@ -4,12 +4,16 @@ export default {
     // NAVIGATION
     MENU: {
         START: 'Start',
-        DESIGNER: 'Ship-Calculator',
+        DESIGNER: 'Ship-Designer',
+        CALCULATOR: '> Calculator',
+        SHIP_CALCULATOR: 'Normal Ship',
+        CAPT_CALCULATOR: 'Capital Ship',
         MAP: 'Map',
         MORE: 'More',
         YOLOL: 'Yolol',
-        DATABASE: 'Database',
         CONTACT: 'Contact',
+        OPTIONS: 'Options',
+        OPTIONS_LANGUAGE: '> Change Language',
         OPTIONS_EXTRA_TITLE: '> Extras',
         OPTIONS_CHANGELOG: 'Changelog'
     },
@@ -18,12 +22,18 @@ export default {
     // PAGE: START
     START: {
         HEADLINE_TITLE: 'Community Web Tools',
-        HEADLINE_DESCRIPTION: 'Everything you need to survive in Starbase!'
+        HEADLINE_SUB: '( unofficial )',
+        HEADLINE_DESCRIPTION: 'Everything you need to survive in Starbase!',
+
+        DEVELOPER_NOTE: 'Tools made with ',
+        DEVELOPER_NOTE_BY: ' by ',
+        DEVELOPER_NOTE_LIKE: 'Like my work?',
+        DEVELOPER_NOTE_COFFEE: 'Buy me a Coffee'
     },
 
     // ---------------------------
-    // PAGE: Ship-Designer
-    DESIGNER: {
+    // PAGE: Spaceship-Calculator
+    SHIP_CALC: {
         CARD: {
             TRUSTER_TITLE: 'Thruster',
             PROP_FUEL_ENERGY_TITLE: 'Fuel and Energy',
@@ -157,5 +167,53 @@ export default {
 
             MINING_BATTERYS: 'Min Batteries for MiningLaser'
         }
+    },
+
+    // ---------------------------
+    // PAGE: Capital-Calculator
+    CAPT_SHIP: {
+        HEADLINE_TITLE: 'Capital-Ship Caluclator',
+        HEADLINE_SUB: 'Yea... Same as the normal ship calc but for Captital Ships',
+        WIP: 'Sorry! Not done yet :)'
+    },
+
+    // ---------------------------
+    // PAGE: Yolol-Calculator
+    YOLOL: {
+        HEADLINE_TITLE: 'Yolol Codes',
+        HEADLINE_SUB: 'Collection of usefull yolol codes and debug/dev tools',
+        WIP: 'Sorry! Not done yet :)'
+    },
+
+    // ---------------------------
+    // PAGE: Map
+    MAP: {
+        HEADLINE_TITLE: 'Interactive Map',
+        HEADLINE_SUB: 'Full detailed Galaxy map of Starbase',
+        WIP: 'Sorry! Not done yet :)'
+    },
+
+    // ---------------------------
+    // PAGE: Contact
+    CONTACT: {
+        HEADLINE_TITLE: 'Contact',
+        HEADLINE_SUB: 'Yep thats me...',
+        ABOUT_TITLE: 'About Me',
+        ABOUT_TEXT: 'Hey, I´m PoLLi. I made this somewhat functional website...',
+        CONTACT_TEXT: 'If u would like to get in contact with me you can do so by the following details listed below.',
+        CHANNELS: 'Channels',
+        PERSONAL_DISCORD: 'Personal Discord: ',
+        GITHUB: 'Github',
+        PERSONAL_GITHUB: 'Personal Github: ',
+        NETWORK_GITHUB: 'JLN Github: ',
+        SOCIAL: 'Social',
+        PERSONAL_SOCIAL: 'Personal: '
+    },
+
+    // ---------------------------
+    // PAGE: Changelog
+    CHANGELOG: {
+        HEADLINE_TITLE: 'Changelog',
+        HEADLINE_SUB: 'well... yea thats what you would expect here'
     }
 };

@@ -4,12 +4,16 @@ export default {
     // NAVIGATION
     MENU: {
         START: '首页',
-        DESIGNER: '船舶计算器',
+        DESIGNER: 'Ship-Designer',
+        CALCULATOR: '> Calculator',
+        SHIP_CALCULATOR: '船舶计算器',
+        CAPT_CALCULATOR: 'Capital Ship',
         MAP: '地图',
         MORE: '更多',
         YOLOL: 'Yolol',
-        DATABASE: '数据库',
         CONTACT: '联系方式',
+        OPTIONS: 'Options',
+        OPTIONS_LANGUAGE: '> Change Language',
         OPTIONS_EXTRA_TITLE: '> 其他',
         OPTIONS_CHANGELOG: '更新日志'
     },
@@ -18,12 +22,18 @@ export default {
     // PAGE: START
     START: {
         HEADLINE_TITLE: '社区网页工具',
-        HEADLINE_DESCRIPTION: '在Starbase中生存所需的一切!'
+        HEADLINE_SUB: '( unofficial )',
+        HEADLINE_DESCRIPTION: '在Starbase中生存所需的一切!',
+
+        DEVELOPER_NOTE: 'Tools made with ',
+        DEVELOPER_NOTE_BY: ' by ',
+        DEVELOPER_NOTE_LIKE: 'Like my work?',
+        DEVELOPER_NOTE_COFFEE: 'Buy me a Coffee'
     },
 
     // ---------------------------
-    // PAGE: Ship-Designer
-    DESIGNER: {
+    // PAGE: Spaceship-Calculator
+    SHIP_CALC: {
         CARD: {
             TRUSTER_TITLE: '推进器',
             PROP_FUEL_ENERGY_TITLE: '燃料和能源',
@@ -120,7 +130,7 @@ export default {
             FORWARD_SPEED: '前进速度',
             BACKWARD_SPEED: '后退速度',
             FORWARD_SPEED_HALF: '前进速度（半箱）',
-            FORWARD_SPEED_FULL: '后退速度（满箱）',
+            FORWARD_SPEED_FULL: '前进速度（满箱）',
 
             FORWARD_SPEED_HALF_TOOLTIP: '半箱按矿石粗平均重量（15t/stack）计算',
             FORWARD_SPEED_FULL_TOOLTIP: '满箱按矿石的最高重量计算（26t/stack-Lukium）',
@@ -157,5 +167,53 @@ export default {
 
             MINING_BATTERYS: '矿用激光最小电池数'
         }
+    },
+    
+    // ---------------------------
+    // PAGE: Capital-Calculator
+    CAPT_SHIP: {
+        HEADLINE_TITLE: 'Capital-Ship Caluclator',
+        HEADLINE_SUB: 'Yea... Same as the normal ship calc but for Captital Ships',
+        WIP: 'Sorry! Not done yet :)'
+    },
+
+    // ---------------------------
+    // PAGE: Yolol-Calculator
+    YOLOL: {
+        HEADLINE_TITLE: 'Yolol Codes',
+        HEADLINE_SUB: 'Collection of usefull yolol codes and debug/dev tools',
+        WIP: 'Sorry! Not done yet :)'
+    },
+
+    // ---------------------------
+    // PAGE: Map
+    MAP: {
+        HEADLINE_TITLE: 'Interactive Map',
+        HEADLINE_SUB: 'Full detailed Galaxy map of Starbase',
+        WIP: 'Sorry! Not done yet :)'
+    },
+
+    // ---------------------------
+    // PAGE: Contact
+    CONTACT: {
+        HEADLINE_TITLE: 'Contact',
+        HEADLINE_SUB: 'Yep thats me...',
+        ABOUT_TITLE: 'About Me',
+        ABOUT_TEXT: 'Hey, I´m PoLLi. I made this somewhat functional website...',
+        CONTACT_TEXT: 'If u would like to get in contact with me you can do so by the following details listed below.',
+        CHANNELS: 'Channels',
+        PERSONAL_DISCORD: 'Personal Discord: ',
+        GITHUB: 'Github',
+        PERSONAL_GITHUB: 'Personal Github: ',
+        NETWORK_GITHUB: 'JLN Github: ',
+        SOCIAL: 'Social',
+        PERSONAL_SOCIAL: 'Personal: '
+    },
+
+    // ---------------------------
+    // PAGE: Changelog
+    CHANGELOG: {
+        HEADLINE_TITLE: 'Changelog',
+        HEADLINE_SUB: 'well... yea thats what you would expect here'
     }
 };

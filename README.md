@@ -14,11 +14,11 @@ any other Tool that might be added over time.
 | Code  | Language            | Status       |
 | ----- | ------------------- | ------------ |
 | en-US | English             | Finished     |
-| fr-FR | French              | Finished     |
-| pt-BR | Portuguese (Brazil) | Finished     |
+| fr-FR | French              | Needs Update |
+| pt-BR | Portuguese (Brazil) | Needs Update |
 | de-DE | German              | Needs Update |
 | ru-RU | Russian             | Needs Update |
-| cn-ZH | Chinese             | Finished     |
+| cn-ZH | Chinese             | Needs Update |
 
 ## 🤔 Stay In Touch
 
