@@ -15,7 +15,7 @@ any other Tool that might be added over time.
 | ----- | ------------------- | ------------ |
 | en-US | English             | Finished     |
 | fr-FR | French              | Finished     |
-| pt-BR | Portuguese (Brazil) | Needs Update |
+| pt-BR | Portuguese (Brazil) | Finished     |
 | de-DE | German              | Needs Update |
 | ru-RU | Russian             | Needs Update |
 | cn-ZH | Chinese             | Needs Update |
