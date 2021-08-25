@@ -11,15 +11,16 @@ any other Tool that might be added over time.
 
 ## Translations
 
-| Code  | Language            | Status       |
-| ----- | ------------------- | ------------ |
-| en-US | English             | Finished     |
-| fr-FR | French              | Finished     |
-| pt-BR | Portuguese (Brazil) | Needs Update |
-| de-DE | German              | Needs Update |
-| ru-RU | Russian             | Needs Update |
-| zh-CN | Chinese             | Finished     |
-| zh-TW | Chinese(Traditional)| Finished     |
+| Code  | Language             | Status       |
+| ----- | -------------------- | ------------ |
+| en-US | English              | Finished     |
+| fr-FR | French               | Finished     |
+| pt-BR | Portuguese (Brazil)  | Finished     |
+| de-DE | German               | Needs Update |
+| ru-RU | Russian              | Finished     |
+| zh-CN | Chinese              | Finished     |
+| zh-TW | Chinese(Traditional) | Finished     |
+
 
 ## 🤔 Stay In Touch
 

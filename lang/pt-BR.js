@@ -4,16 +4,16 @@ export default {
     // NAVIGATION
     MENU: {
         START: 'Início',
-        DESIGNER: 'Ship-Designer',
-        CALCULATOR: '> Calculator',
+        DESIGNER: 'Designer-de-Naves',
+        CALCULATOR: '> Calculadora',
         SHIP_CALCULATOR: 'Calculadora-de-Naves',
-        CAPT_CALCULATOR: 'Capital Ship',
+        CAPT_CALCULATOR: 'Nave Capitânia',
         MAP: 'Mapa',
         MORE: 'Mais',
         YOLOL: 'Yolol',
         CONTACT: 'Contato',
-        OPTIONS: 'Options',
-        OPTIONS_LANGUAGE: '> Change Language',
+        OPTIONS: 'Opções',
+        OPTIONS_LANGUAGE: '> Alterar Linguagem',
         OPTIONS_EXTRA_TITLE: '> Extras',
         OPTIONS_CHANGELOG: 'Atualizações'
     },
@@ -22,22 +22,22 @@ export default {
     // PAGE: START
     START: {
         HEADLINE_TITLE: 'Ferramentas Online da Comunidade',
-        HEADLINE_SUB: '( unofficial )',
+        HEADLINE_SUB: '( não-oficial )',
         HEADLINE_DESCRIPTION: 'Tudo que você precisa para sobreviver dentro de Starbase!',
 
-        DEVELOPER_NOTE: 'Tools made with ',
-        DEVELOPER_NOTE_BY: ' by ',
-        DEVELOPER_NOTE_LIKE: 'Like my work?',
-        DEVELOPER_NOTE_COFFEE: 'Buy me a Coffee'
+        DEVELOPER_NOTE: 'Ferramentas feitas com ',
+        DEVELOPER_NOTE_BY: ' por ',
+        DEVELOPER_NOTE_LIKE: 'Gosta do meu trabalho?',
+        DEVELOPER_NOTE_COFFEE: 'Compre-me um Café'
     },
 
     // ---------------------------
     // PAGE: Spaceship-Calculator
     SHIP_CALC: {
         WARNING: {
-            HEADLINE: 'WARNING: ',
-            SUBLINE: 'Almost everything is subject to change. ',
-            VERSION: 'Current Version: '
+            HEADLINE: 'Aviso: ',
+            SUBLINE: 'Quase tudo está sujeito a mudanças. ',
+            VERSION: 'Versão Atual: '
         },
         
         CARD: {
@@ -52,7 +52,7 @@ export default {
         SAVE: {
             SHIP_CALC_SAVE_TEXT: 'A URL do Cálculo de sua Nave está pronta!.',
             SHIP_CALC_COPY_CLIPBOARD: 'Copiar para a Área de Transferência',
-            SAVE_BUTTON: 'SALVAR DADOS',
+            SAVE_BUTTON: 'SALVAR',
             RESET_BUTTON: 'REINICIAR'
         },
 
@@ -178,48 +178,48 @@ export default {
     // ---------------------------
     // PAGE: Capital-Calculator
     CAPT_SHIP: {
-        HEADLINE_TITLE: 'Capital-Ship Caluclator',
-        HEADLINE_SUB: 'Yea... Same as the normal ship calc but for Captital Ships',
-        WIP: 'Sorry! Not done yet :)'
+        HEADLINE_TITLE: 'Calculadora para Naves Capitânia',
+        HEADLINE_SUB: 'Sim ... O mesmo que o cálculo para naves normais, porém para naves capitânia',
+        WIP: 'Desculpa! Ainda não finalizado :)'
     },
 
     // ---------------------------
     // PAGE: Yolol-Calculator
     YOLOL: {
-        HEADLINE_TITLE: 'Yolol Codes',
-        HEADLINE_SUB: 'Collection of usefull yolol codes and debug/dev tools',
-        WIP: 'Sorry! Not done yet :)'
+        HEADLINE_TITLE: 'Códigos Yolol',
+        HEADLINE_SUB: 'Coleção de códigos yolol úteis e ferramentas de depuração/desenvolvimento',
+        WIP: 'Desculpa! Ainda não finalizado :)'
     },
 
     // ---------------------------
     // PAGE: Map
     MAP: {
-        HEADLINE_TITLE: 'Interactive Map',
-        HEADLINE_SUB: 'Full detailed Galaxy map of Starbase',
-        WIP: 'Sorry! Not done yet :)'
+        HEADLINE_TITLE: 'Mapa Interativo',
+        HEADLINE_SUB: 'Mapa completo e detalhado da Galáxia de Starbase',
+        WIP: 'Desculpa! Ainda não finalizado :)'
     },
 
     // ---------------------------
     // PAGE: Contact
     CONTACT: {
-        HEADLINE_TITLE: 'Contact',
-        HEADLINE_SUB: 'Yep thats me...',
-        ABOUT_TITLE: 'About Me',
-        ABOUT_TEXT: 'Hey, I´m PoLLi. I made this somewhat functional website...',
-        CONTACT_TEXT: 'If u would like to get in contact with me you can do so by the following details listed below.',
-        CHANNELS: 'Channels',
-        PERSONAL_DISCORD: 'Personal Discord: ',
+        HEADLINE_TITLE: 'Contato',
+        HEADLINE_SUB: 'Sim, este sou eu...',
+        ABOUT_TITLE: 'Sobre Mim',
+        ABOUT_TEXT: 'Olá, eu sou PoLLi. Eu criei este site semi funcional...',
+        CONTACT_TEXT: 'Se você deseja entrar em contato comigo, você pode usar uma das formas listadas abaixo.',
+        CHANNELS: 'Canais',
+        PERSONAL_DISCORD: 'Discord Pessoal: ',
         GITHUB: 'Github',
-        PERSONAL_GITHUB: 'Personal Github: ',
-        NETWORK_GITHUB: 'JLN Github: ',
+        PERSONAL_GITHUB: 'Github Pessoal: ',
+        NETWORK_GITHUB: 'Github JLN: ',
         SOCIAL: 'Social',
-        PERSONAL_SOCIAL: 'Personal: '
+        PERSONAL_SOCIAL: 'Pessoal: '
     },
 
     // ---------------------------
     // PAGE: Changelog
     CHANGELOG: {
-        HEADLINE_TITLE: 'Changelog',
-        HEADLINE_SUB: 'well... yea thats what you would expect here'
+        HEADLINE_TITLE: 'Atualizações',
+        HEADLINE_SUB: 'bem ... sim, isso é o que você esperaria por aqui'
     }
 };
