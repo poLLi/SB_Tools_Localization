@@ -4,16 +4,16 @@ export default {
     // NAVIGATION
     MENU: {
         START: '首页',
-        DESIGNER: 'Ship-Designer',
-        CALCULATOR: '> Calculator',
-        SHIP_CALCULATOR: '船舶计算器',
-        CAPT_CALCULATOR: 'Capital Ship',
+        DESIGNER: '船舶设计师',
+        CALCULATOR: '> 计算器',
+        SHIP_CALCULATOR: '普通船舶',
+        CAPT_CALCULATOR: '主力舰',
         MAP: '地图',
         MORE: '更多',
         YOLOL: 'Yolol',
-        CONTACT: '联系方式',
-        OPTIONS: 'Options',
-        OPTIONS_LANGUAGE: '> Change Language',
+        CONTACT: '联系',
+        OPTIONS: '选项',
+        OPTIONS_LANGUAGE: '> 更改语言',
         OPTIONS_EXTRA_TITLE: '> 其他',
         OPTIONS_CHANGELOG: '更新日志'
     },
@@ -22,22 +22,22 @@ export default {
     // PAGE: START
     START: {
         HEADLINE_TITLE: '社区网页工具',
-        HEADLINE_SUB: '( unofficial )',
+        HEADLINE_SUB: '( 非官方的 )',
         HEADLINE_DESCRIPTION: '在Starbase中生存所需的一切!',
 
-        DEVELOPER_NOTE: 'Tools made with ',
-        DEVELOPER_NOTE_BY: ' by ',
-        DEVELOPER_NOTE_LIKE: 'Like my work?',
-        DEVELOPER_NOTE_COFFEE: 'Buy me a Coffee'
+        DEVELOPER_NOTE: '工具制作 ',
+        DEVELOPER_NOTE_BY: ' 来自 ',
+        DEVELOPER_NOTE_LIKE: '喜欢我的作品?',
+        DEVELOPER_NOTE_COFFEE: '给我买杯咖啡'
     },
 
     // ---------------------------
     // PAGE: Spaceship-Calculator
     SHIP_CALC: {
         WARNING: {
-            HEADLINE: 'WARNING: ',
-            SUBLINE: 'Almost everything is subject to change. ',
-            VERSION: 'Current Version: '
+            HEADLINE: '警告: ',
+            SUBLINE: '一切都可能发生变化. ',
+            VERSION: '当前版本: '
         },
         
         CARD: {
@@ -141,8 +141,8 @@ export default {
             FORWARD_SPEED_HALF_TOOLTIP: '半箱按矿石粗平均重量（15t/stack）计算',
             FORWARD_SPEED_FULL_TOOLTIP: '满箱按矿石的最高重量计算（26t/stack-Lukium）',
 
-            FLIGHT_TIME_HEAD: '飞行时间',
-            FLIGHT_TIME: '飞行时间',
+            FLIGHT_TIME_HEAD: '飞行时长',
+            FLIGHT_TIME: '飞行时长',
             FLIGHT_TIME_FUEL: '燃料',
             FLIGHT_TIME_PROP: '推进剂',
             FLIGHT_TIME_TOOLTIP: '飞行时间以全向前推力和半机动推力计算.',
@@ -178,48 +178,48 @@ export default {
     // ---------------------------
     // PAGE: Capital-Calculator
     CAPT_SHIP: {
-        HEADLINE_TITLE: 'Capital-Ship Caluclator',
-        HEADLINE_SUB: 'Yea... Same as the normal ship calc but for Captital Ships',
-        WIP: 'Sorry! Not done yet :)'
+        HEADLINE_TITLE: '主力舰计算器',
+        HEADLINE_SUB: '是的...与普通船舶计算相同，但适用于主力舰',
+        WIP: '对不起！还没有完成 :)'
     },
 
     // ---------------------------
     // PAGE: Yolol-Calculator
     YOLOL: {
-        HEADLINE_TITLE: 'Yolol Codes',
-        HEADLINE_SUB: 'Collection of usefull yolol codes and debug/dev tools',
-        WIP: 'Sorry! Not done yet :)'
+        HEADLINE_TITLE: 'Yolol 代码',
+        HEADLINE_SUB: '有用的 yolol 代码和调试/开发工具集合',
+        WIP: '对不起！还没有完成 :)'
     },
 
     // ---------------------------
     // PAGE: Map
     MAP: {
-        HEADLINE_TITLE: 'Interactive Map',
-        HEADLINE_SUB: 'Full detailed Galaxy map of Starbase',
-        WIP: 'Sorry! Not done yet :)'
+        HEADLINE_TITLE: '交互式地图',
+        HEADLINE_SUB: 'Starbase完整详细的银河地图',
+        WIP: '对不起！还没有完成 :)'
     },
 
     // ---------------------------
     // PAGE: Contact
     CONTACT: {
-        HEADLINE_TITLE: 'Contact',
-        HEADLINE_SUB: 'Yep thats me...',
-        ABOUT_TITLE: 'About Me',
-        ABOUT_TEXT: 'Hey, I´m PoLLi. I made this somewhat functional website...',
-        CONTACT_TEXT: 'If u would like to get in contact with me you can do so by the following details listed below.',
-        CHANNELS: 'Channels',
-        PERSONAL_DISCORD: 'Personal Discord: ',
+        HEADLINE_TITLE: '联系方式',
+        HEADLINE_SUB: '没错，就是我...',
+        ABOUT_TITLE: '关于我',
+        ABOUT_TEXT: '嘿，我是PoLLi。我做了这个有点功能的网站..',
+        CONTACT_TEXT: '如果您想与我联系，您可以通过下面列出的方式.',
+        CHANNELS: '频道',
+        PERSONAL_DISCORD: '个人Discord: ',
         GITHUB: 'Github',
-        PERSONAL_GITHUB: 'Personal Github: ',
+        PERSONAL_GITHUB: '个人 Github: ',
         NETWORK_GITHUB: 'JLN Github: ',
-        SOCIAL: 'Social',
-        PERSONAL_SOCIAL: 'Personal: '
+        SOCIAL: '社交',
+        PERSONAL_SOCIAL: '个人: '
     },
 
     // ---------------------------
     // PAGE: Changelog
     CHANGELOG: {
-        HEADLINE_TITLE: 'Changelog',
-        HEADLINE_SUB: 'well... yea thats what you would expect here'
+        HEADLINE_TITLE: '更新日志',
+        HEADLINE_SUB: '嗯……是的，这就是你所期望的'
     }
 };
