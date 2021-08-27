@@ -25,8 +25,8 @@ export default {
         HEADLINE_SUB: '( неофициальные )',
         HEADLINE_DESCRIPTION: 'Всё необходимое для выживания в Starbase!',
 
-        DEVELOPER_NOTE: 'Инструменты сделаны с ',
-        DEVELOPER_NOTE_BY: ' от ',
+        DEVELOPER_NOTE: 'Made with ',
+        DEVELOPER_NOTE_BY: ' by ',
         DEVELOPER_NOTE_LIKE: 'Нравится моя работа?',
         DEVELOPER_NOTE_COFFEE: 'Купите мне кофе'
     },
@@ -110,8 +110,8 @@ export default {
         },
 
         WEIGHT_CARGO: {
-            WEIGHT: 'Общий вес в тоннах (с пустыми контейнерами)',
-            WEIGHT_TOOLTIP: 'Вы можете узнать масску корабля, попытавшись его подобрать [P].',
+            WEIGHT: 'Общая масса (тонны)',
+            WEIGHT_TOOLTIP: 'Вы можете узнать массу корабля, попытавшись его подобрать [P].',
             CRATES: 'Количество ящиков для руды'
         },
 
@@ -166,10 +166,10 @@ export default {
             TOTAL_COOLING: 'Рассеивание тепла',
 
             ENERGY_GEN: 'Выработка энергии',
-            ENERGY_DRAIN_IDLE: 'Потребление энергии (Пассивно)',
+            ENERGY_DRAIN_IDLE: 'Потребление энергии (В простое)',
             ENERGY_DRAIN_THRUSTER: 'Потребление энергии (Двигатели)',
             ENERGY_DRAIN_TOOLS: 'Потребление энергии (Инструменты)',
-            ENERGY_DRAIN_WEAPONS: 'Потребление энергии (Орежие)',
+            ENERGY_DRAIN_WEAPONS: 'Потребление энергии (Оружие)',
 
             MINING_BATTERYS: 'Минимальное количество аккумуляторов для шахтёрских лазеров'
         }
@@ -213,7 +213,7 @@ export default {
         PERSONAL_GITHUB: 'Личный Github: ',
         NETWORK_GITHUB: 'JLN Github: ',
         SOCIAL: 'Соцсети',
-        PERSONAL_SOCIAL: 'Personal: '
+        PERSONAL_SOCIAL: 'Twitter: '
     },
 
     // ---------------------------
