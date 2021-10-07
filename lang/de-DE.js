@@ -13,7 +13,7 @@ export default {
         YOLOL: 'Yolol',
         CONTACT: 'Kontakt',
         OPTIONS: 'Options',
-        OPTIONS_LANGUAGE: '> Change Language',
+        OPTIONS_LANGUAGE: '> Sprache ändern',
         OPTIONS_EXTRA_TITLE: '> Extras',
         OPTIONS_CHANGELOG: 'Changelog'
     },
@@ -45,7 +45,7 @@ export default {
             PROP_FUEL_ENERGY_TITLE: 'Treibstoff und Strom',
             WEIGHT_MISC_TITLE: 'Gewicht und Lager',
             TOOLS_TITLE: 'Tools',
-            WEAPON_TITLE: 'Weapon',
+            WEAPON_TITLE: 'Waffen',
             CALCULATION_TITLE: 'Berechnung'
         },
 
@@ -77,7 +77,7 @@ export default {
         },
 
         PROPELLANT: {
-            PROPELLANT_HEADLINE: 'Treibmittel Tank',
+            PROPELLANT_HEADLINE: 'Treibstoff Tank',
             PROPELLANT_T1: 'Kleiner Treibstoff Tank',
             PROPELLANT_T2: 'Mittlerer Treibstoff Tank',
             PROPELLANT_T3: 'Großer Treibstoff Tank'
@@ -99,14 +99,14 @@ export default {
 
         BATTERY: {
             BATTERY_HEADLINE: 'Batterie',
-            BATTERY_T1: 'Kleiner Batterie'
+            BATTERY_T1: 'Kleine Batterie'
         },
 
         COOLING: {
             COOLING_HEADLINE: 'Kühlung',
             RADIATOR_BASE: 'Kühler Basis',
             RADIATOR_EXTENSION: 'Kühler Erweiterung',
-            COOLING_RACK: 'Kühlregal'
+            COOLING_RACK: 'Kühler Gestell'
         },
 
         WEIGHT_CARGO: {
@@ -116,12 +116,12 @@ export default {
         },
 
         TOOLS: {
-            MINING_LASER: 'Mining Laser',
-            MINING_BATTERY_TIME: 'Batterie unterstützung in sekunden',
-            ORE_COLLECTOR: 'Ore Collector',
+            MINING_LASER: 'Mining-Laser',
+            MINING_BATTERY_TIME: 'Batterie Unterstützung in Sekunden',
+            ORE_COLLECTOR: 'Erz Sammler',
             MATERIAL_SCANNER: 'Material Point Scanner',
             LASER_DESIGNATOR: 'Laser Designator',
-            RANGEFINDER: 'Rangefinder'
+            RANGEFINDER: 'Entfernungsmesser'
         },
 
         WEAPON: {
@@ -138,14 +138,14 @@ export default {
             FORWARD_SPEED_HALF: 'Geschwindigkeit (halbe Kisten)',
             FORWARD_SPEED_FULL: 'Geschwindigkeit (volle Kisten)',
 
-            FORWARD_SPEED_HALF_TOOLTIP: 'Halbe Kisten wird berechnet mit dem groben durschnitt der Erz gewichte (15t/stack)',
+            FORWARD_SPEED_HALF_TOOLTIP: 'Halbe Kisten wird berechnet mit dem groben Durschnitt der Erzgewichte (15t/stack)',
             FORWARD_SPEED_FULL_TOOLTIP: 'Volle Kisten wird berechnet mit dem schwersten Erz (26t/stack - Lukium)',
 
             FLIGHT_TIME_HEAD: 'Flugzeiten',
             FLIGHT_TIME: 'Flugzeit',
             FLIGHT_TIME_FUEL: 'Brennstoff',
             FLIGHT_TIME_PROP: 'Treistoff',
-            FLIGHT_TIME_TOOLTIP: 'Ungefähgre Flugzeit wird berechnet mit vollem Vorwärts Schub und halber Manöver Schub',
+            FLIGHT_TIME_TOOLTIP: 'Ungefähgre Flugzeit wird berechnet mit vollem Vorwärts Schub und halben Manöver Schub',
 
             FLIGHT_LENGTH: 'Fluglänge',
             FLIGHT_LENGTH_HALF: 'Fluglänge (halbe Kisten)',
@@ -166,10 +166,10 @@ export default {
             TOTAL_COOLING: 'Kühlung',
 
             ENERGY_GEN: 'Energie Generation',
-            ENERGY_DRAIN_IDLE: 'Energy Drain (Idle)',
+            ENERGY_DRAIN_IDLE: 'Energy Verbrauch (Lerrlauf)',
             ENERGY_DRAIN_THRUSTER: 'Energie verbrauch (Antrieb)',
             ENERGY_DRAIN_TOOLS: 'Energie verbrauch (Tools)',
-            ENERGY_DRAIN_WEAPONS: 'Energy Drain (Weapons)',
+            ENERGY_DRAIN_WEAPONS: 'Energie Verbrauch (Waffen)',
 
             MINING_BATTERYS: 'Min Batterien für MiningLaser'
         }
